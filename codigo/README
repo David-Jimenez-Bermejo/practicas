@@ -1,0 +1,12 @@
+
+1. Paralelizar los bucles del código con una única región paralela.
+
+2.  Hacer un estudio experimental del impacto de las diferentes políticas
+	de planificación en el primer bucle paralelizado.
+	- Probar con diferentes combinaciones de políticas y tamaños de chunk
+	- Probar cada caso con 2, 4, 8, ... threads (hasta el máximo número
+		de cores de la máquina).
+
+3. Extraer conclusiones sobre por qué funciona mejor una política u otra en
+	este programa.
+
